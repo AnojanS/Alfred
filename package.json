@@ -1,0 +1,26 @@
+{
+  "name": "alfred",
+  "version": "0.0.0",
+  "description": "",
+  "author": "bowenxue <xboxue@gmail.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lib": "^4.0.0"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "bowenxue/alfred",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    },
+    "source": "@messagebird/messagehub/0.1.7"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
