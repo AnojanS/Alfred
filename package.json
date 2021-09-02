@@ -5,7 +5,7 @@
   "author": "bowenxue <xboxue@gmail.com>",
   "main": "functions/__main__.js",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "lib": "^4.0.0"
   },
   "private": true,
